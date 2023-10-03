@@ -21,7 +21,7 @@ function printPowsOf2(number){
 
 // printPowsOf2(64)
 
-// мемонізована версія з закриттям
+// мемоізована версія з закриттям
 
 function memoPrintPowsOf2(){
     let cache = {}
@@ -73,7 +73,7 @@ function recursionPrintPowsOf2(number, pow = 1){
 
 // recursionPrintPowsOf2(32)
 
-// рекурсія з мемонізацією та закриттям
+// рекурсія з мемоізацією та закриттям
 
 function hideCache(){
     cache = {}
